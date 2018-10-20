@@ -1,0 +1,49 @@
+.carousel-thumbnails .carousel-indicators img {
+	max-width: 100px;
+	height: 50px;
+	overflow: hidden;
+	display: block;
+	position: fixed; 
+    bottom: 5%;
+}
+
+
+.carousel-thumbnails .carousel-indicators li {
+	height: auto;
+	max-width: 100px;
+	width: 100px;
+	border: none;
+	box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+				
+	&.active {
+		border-bottom: 4px solid #fff;
+	}
+}
+
+#number {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 30%;
+	left: 10%;
+	color: yellow;
+}
+
+#review {
+	top: 35%;
+	left: 15%;
+	position: fixed;
+	color: yellow;
+	font-size: 25px;
+	-ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+
+#text {
+	top: 30%;
+	left: 80%;
+	right: 10px;
+	position: fixed;
+	color: yellow;
+}
